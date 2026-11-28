@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Kevin Huynh Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Portfolio of Kevin Huynh, versatile software developer and student at Epitech Marseille: software, video games, embedded systems and AI, with a playable 3D world.">
+<meta name="author" content="Kevin Huynh">
+<meta name="theme-color" content="#0b0a0d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kevin Huynh Portfolio">
+<meta property="og:description" content="Versatile software developer, student at Epitech Marseille. Projects in detail, then a playable 3D world.">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://nivek-hyn.github.io/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Kevin Huynh, software developer: the robot of his 3D world on its pad">
+<link rel="icon" type="image/png" href="./favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Kevin Huynh","alternateName":"Nivek","jobTitle":"Software developer (student)","affiliation":{"@type":"CollegeOrUniversity","name":"Epitech Marseille"},"address":{"@type":"PostalAddress","addressLocality":"Marseille","addressCountry":"FR"},"sameAs":["https://www.linkedin.com/in/kevin-huynh-8784b533b/","https://github.com/Nivek-Hyn"]}</script>
+  <script type="module" crossorigin src="./assets/index-Dut-H2A5.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/style-DeAMFnJM.css">
+<meta name="copyright" content="(c) 2025-2026 Kevin Huynh. All rights reserved.">
+<link rel="canonical" href="https://nivek-hyn.github.io/">
+<meta property="og:url" content="https://nivek-hyn.github.io/">
+<link rel="alternate" hreflang="en" href="https://nivek-hyn.github.io/?lang=en">
+<link rel="alternate" hreflang="fr" href="https://nivek-hyn.github.io/?lang=fr">
+<link rel="alternate" hreflang="x-default" href="https://nivek-hyn.github.io/">
+</head>
+<body>
+<a class="skip" href="#main" data-t="nav.skip">Skip to content</a>
+
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="page">
+<header class="nav"><div class="wrap">
+  <a class="mark" href="#top" data-cursor-label="Kevin Huynh"><span class="gem"><span>KH</span></span>Kevin Huynh</a>
+  <nav class="nav-links" aria-label="Sections">
+    <a href="#about" style="--c:var(--ember)" data-t="nav.about">About</a>
+    <a href="#works" style="--c:var(--guild)" data-t="nav.projects">Projects</a>
+    <a href="#path" style="--c:var(--library)" data-t="nav.path">Path</a>
+    <a href="#skills" style="--c:var(--temple)" data-t="nav.skills">Skills</a>
+    <a href="#contact" style="--c:var(--raven)" data-t="nav.contact">Contact</a>
+  </nav>
+  <button class="lang mono" id="lang" type="button" data-cursor-label="EN / FR"><span data-l="en">EN</span><i></i><span data-l="fr">FR</span></button>
+  <a class="btn js-enter" href="world.html#kingdom" data-cl-en="3D world" data-cl-fr="Monde 3D"><span class="d"></span><span class="lbl" data-t="nav.world">Explore the 3D world</span><span class="short" data-t="nav.world.short">3D world</span></a>
+</div></header>
+
+<section class="hero load" id="top" aria-label="Introduction">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <div class="eyebrow caps l1"><i></i><span data-t="hero.eyebrow">Versatile software developer · Marseille</span></div>
+      <h1 class="l2" aria-label="Kevin Huynh"><span class="glow" aria-hidden="true">Kevin Huynh</span></h1>
+      <div class="hero-rule" aria-hidden="true"></div>
+      <p class="role" data-t="hero.role"><span>Software</span><span>Games</span><span>Embedded systems</span><span>AI</span></p>
+      <p class="lede l3"><span data-t="hero.lede">Third-year student at Epitech Marseille, I like to understand a system from end to end and to learn whatever tool or language a project needs: a virtual machine in C, a multiplayer game in C++, a local AI assistant in Python, data-processing tools for a company.</span> <em data-internship="lookingFor"></em></p>
+      <div class="cta l4">
+        <a class="btn solid" href="#works"><span class="d"></span><span data-t="cta.projects">See the projects</span><svg class="go down" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 2v10M3 8l4 4 4-4"/></svg></a>
+        <a class="btn js-cv" href="#" target="_blank" rel="noopener" hidden data-t="cta.cv">Download CV</a>
+        <a class="btn js-enter" href="world.html#kingdom"><span data-t="cta.world">Explore the 3D world</span><svg class="go" viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4"/></svg></a>
+        <a class="btn" id="full-game" href="#" target="_blank" rel="noopener" hidden><span class="d"></span>Play the full game</a>
+      </div>
+    </div>
+    <div class="hero-bot l4" aria-hidden="true">
+      <video class="bot-rest" autoplay loop muted playsinline preload="auto" poster="robot-rest.jpg" src="robot-rest.mp4"></video>
+      <video class="bot-awake" loop muted playsinline preload="none" poster="robot-pad.jpg" data-src="robot-pad.mp4"></video>
+    </div>
+  </div>
+  <div class="wrap l4"><div class="cue" aria-hidden="true"><span class="cue-line"></span><svg class="cue-arrows" viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M2 2l4 3.5L10 2"/><path d="M2 8l4 3.5L10 8"/></svg><span class="cue-line r"></span></div></div>
+</section>
+
+<main id="main" tabindex="-1">
+  <section class="quick" id="quick" aria-label="At a glance"><div class="wrap">
+    <h2 class="caps quick-title" data-t="quick.title">At a glance</h2>
+    <div class="quick-grid">
+      <div class="card rv" style="--c:var(--guild)" data-internship-block><h3 data-t="quick.looking">Looking for</h3><p data-internship="quick1"></p><p class="sub" data-internship="quick2"></p></div>
+      <div class="card rv" style="--c:var(--temple)"><h3 data-t="quick.domains">Domains</h3><p data-t="quick.domains.1">Software, games, embedded systems, AI</p><p class="sub" data-t="quick.domains.2">Open to other fields: I learn the tool or the language the project needs</p></div>
+      <div class="card rv" style="--c:var(--raven)"><h3 data-t="quick.contact">Contact</h3><p class="js-email-text" hidden></p><p class="js-no-email" data-t="quick.contact.1">Message me on LinkedIn</p><p class="sub" data-t="quick.contact.2">Marseille, France · French and English</p><div class="row" id="quick-links"></div></div>
+      <div class="card rv" style="--c:var(--library)"><h3 data-t="quick.projects">Projects</h3><p data-t="quick.projects.1">School and personal projects, each with its detail sheet</p><div class="row"><a class="btn" href="#works" data-t="cta.projects">See the projects</a><a class="btn js-cv" href="#" target="_blank" rel="noopener" hidden>CV (PDF)</a></div></div>
+    </div>
+  </div></section>
+
+  <section class="chapter" id="about" style="--c:var(--ember)"><div class="wrap">
+    <div class="ch-head rv">
+      <div class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c.6-3.8 3.4-6 7-6s6.4 2.2 7 6"/></svg></div>
+      <div class="caps" data-t="about.caps">01 · About</div>
+      <h2 data-t="about.title">About me</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="about">
+      <div class="card statement rv"><i class="k tl"></i><i class="k br"></i>
+        <p data-about="p1">I started with maths and physics. An open day showed me programming, and I wondered why I hadn't started sooner. Since then I learn by building things, on my own and with others.</p>
+        <p data-about="p2">What I enjoy: understanding how a system works underneath, and making things that others use or explore. Outside of school: video games, worldbuilding (building imaginary worlds) and chess.</p>
+      </div>
+      <dl class="card facts rv" id="facts"><i class="k tr"></i><i class="k bl"></i></dl>
+    </div>
+  </div></section>
+
+  <section class="chapter" id="works" style="--c:var(--guild)"><div class="wrap">
+    <div class="ch-head rv">
+      <div class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></svg></div>
+      <div class="caps" data-t="works.caps">02 · Projects</div>
+      <h2 data-t="works.title">Projects</h2>
+      <div class="where" data-t="works.where">The scenes in each frame are small animations made for this site, not captures of the projects. Open a card for its detail sheet.</div>
+      <div class="rule"></div>
+    </div>
+    <h3 class="group-title rv" id="epitech"><span data-t="works.epitech">Epitech projects</span> <span class="mono" data-t="works.epitech.sub">school, mostly in teams</span></h3>
+    <p class="group-note rv" data-t="works.epitech.note">Each card presents the project as a whole; my part in team projects is in its sheet.</p>
+    <div class="pgrid" id="epitech-list"></div>
+    <h3 class="group-title rv" id="personal"><span data-t="works.personal">Personal projects</span> <span class="mono" data-t="works.personal.sub">on my own time</span></h3>
+    <div class="pgrid" id="personal-list"></div>
+  </div></section>
+
+  <section class="chapter" id="path" style="--c:var(--library)"><div class="wrap">
+    <div class="ch-head rv">
+      <div class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="9" r="2"/><path d="M6 7v10M18 11c0 4-6 3-11.5 6"/></svg></div>
+      <div class="caps" data-t="path.caps">03 · Path</div>
+      <h2 data-t="path.title">Timeline</h2>
+      <div class="rule"></div>
+    </div>
+    <ol class="chronicle" id="chronicle"></ol>
+  </div></section>
+
+  <section class="chapter" id="skills" style="--c:var(--temple)"><div class="wrap">
+    <div class="ch-head rv">
+      <div class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></svg></div>
+      <div class="caps" data-t="skills.caps">04 · Skills</div>
+      <h2 data-t="skills.title">Skills</h2>
+      <div class="where" data-t="skills.note">Only what I have used in projects or at work. Underlined words open a short definition.</div>
+      <div class="rule"></div>
+    </div>
+    <div class="arcana" id="arcana"></div>
+  </div></section>
+
+  <section class="chapter" id="contact" style="--c:var(--raven)"><div class="wrap">
+    <div class="ch-head rv">
+      <div class="ch-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 20v-8"/><circle cx="12" cy="10" r="2"/><path d="M7.5 14.5a6.4 6.4 0 0 1 0-9M16.5 5.5a6.4 6.4 0 0 1 0 9M4.8 17a10 10 0 0 1 0-14M19.2 3a10 10 0 0 1 0 14"/></svg></div>
+      <div class="caps" data-t="contact.caps">05 · Contact</div>
+      <h2 data-t="contact.title">Get in touch</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="card raven rv"><i class="k tl"></i><i class="k tr"></i><i class="k bl"></i><i class="k br"></i>
+      <h2 data-t="contact.card">Let's build something together</h2>
+      <p data-internship="contact"></p>
+      <p class="mono js-email-text" hidden></p>
+      <div class="links" id="contact-links"></div>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap"><span class="mono">© 2026 Kevin Huynh</span><span class="mono">Marseille <span id="clock2">--:--</span></span><span class="mono"><span data-t="foot.entrance">Entrance:</span> <button class="mono linkish" data-entrance="boot" type="button" data-t="foot.boot">robot boot</button> · <button class="mono linkish" data-entrance="tunnel" type="button" data-t="foot.tunnel">network tunnel</button></span><a class="mono" href="#top" data-t="foot.top">Back to top ↑</a><span class="mono credits" data-t="foot.credits">3D world built on Bruno Simon's <a href="https://github.com/brunosimon/folio-2025" target="_blank" rel="noopener">folio-2025</a> (MIT licence)</span></div></footer>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

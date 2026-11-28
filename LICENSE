@@ -1,0 +1,26 @@
+Copyright (c) 2025-2026 Kevin Huynh. All rights reserved.
+
+This covers the portfolio site and the 3D world published at
+https://nivek-hyn.github.io/ : their code, design, interface, text, robot,
+tools, enemies, levels, animations, images and videos, and the built files
+of this repository.
+
+You may view the site and play the world in your browser. You may link to it
+and quote short extracts with credit and a link.
+
+Without my prior written permission you may NOT copy, reproduce, republish,
+mirror, modify, adapt, translate, sell, or reuse any part of it, in whole or
+in part, in another site, game, product or template, and you may not use it
+to train or fine-tune machine-learning models. Reading the code in your
+browser does not grant any of these rights.
+
+Third-party parts keep their own licences and are not covered by the
+restrictions above:
+  - the engine of Bruno Simon's folio-2025, MIT licence
+    (THIRD-PARTY-NOTICES/folio-2025-MIT.txt);
+  - the open-source libraries bundled in the build (three.js, Rapier,
+    Howler.js, gsap...), under their own licences;
+  - the assets listed in THIRD-PARTY-NOTICES/README.md (KayKit and Kenney
+    packs: CC0; fonts: SIL OFL 1.1).
+
+For any other use, ask me first through the contact links on the site.
